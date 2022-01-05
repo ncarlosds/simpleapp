@@ -3,6 +3,7 @@ MAINTAINER Sander <mail@sandervanvugt.nl>
 
 # Add repo file
 ADD ./sander.repo /etc/yum.repos.d/
+ADD ./index.php /var/www/html/
 
 # Install cool software
 RUN yum --assumeyes update && \
